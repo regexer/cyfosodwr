@@ -4,7 +4,7 @@ require 'sinatra'
 require './lib/word_assembler.rb'
 require 'json'
 
-words = WordAssembler.new '/home/bhuyck/enable2k.txt'
+words = WordAssembler.new './data/enable2k.txt'
 words.load_trie
 
 get '/' do
