@@ -3,6 +3,7 @@ GEM
   specs:
     coderay (1.1.2)
     fast_trie (0.5.1)
+    kgio (2.11.2)
     method_source (0.8.2)
     mustermann (1.0.2)
     pry (0.10.4)
@@ -14,6 +15,7 @@ GEM
     rack (2.0.4)
     rack-protection (2.0.1)
       rack
+    raindrops (0.19.0)
     sinatra (2.0.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -21,6 +23,9 @@ GEM
       tilt (~> 2.0)
     slop (3.6.0)
     tilt (2.0.8)
+    unicorn (5.4.0)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -30,6 +35,7 @@ DEPENDENCIES
   pry
   pry-nav
   sinatra
+  unicorn
 
 BUNDLED WITH
    1.16.1
