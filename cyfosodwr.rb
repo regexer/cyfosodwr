@@ -6,7 +6,8 @@ require 'json'
 
 class Cyfosodwr < Sinatra::Base
 
-  words = WordAssembler.new './data/enable2k.txt'
+  #words = WordAssembler.new './data/enable2k.txt'
+  words = WordAssembler.new '../english-words/words_alpha.uc.txt'
   words.load_trie
 
   get '/' do
