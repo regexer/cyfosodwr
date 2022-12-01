@@ -13,14 +13,14 @@ GEM
     pry-nav (1.0.0)
       pry (>= 0.9.10, < 0.15)
     rack (2.2.4)
-    rack-protection (2.2.2)
+    rack-protection (2.2.3)
       rack
     raindrops (0.20.0)
     ruby2_keywords (0.0.5)
-    sinatra (2.2.2)
+    sinatra (2.2.3)
       mustermann (~> 2.0)
       rack (~> 2.2)
-      rack-protection (= 2.2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
     tilt (2.0.11)
     unicorn (6.1.0)
@@ -35,7 +35,7 @@ DEPENDENCIES
   pry
   pry-nav
   rack (>= 2.2.3.1)
-  sinatra (~> 2.2.0)
+  sinatra (~> 2.2.3)
   unicorn
 
 BUNDLED WITH
