@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'fast_trie'
-gem 'sinatra', '~>2.2.0'
+gem 'sinatra', '~>2.2.3'
 gem 'unicorn'
 gem 'rack', '>=2.2.3.1'
 
